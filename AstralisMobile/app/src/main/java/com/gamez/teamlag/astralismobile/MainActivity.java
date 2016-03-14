@@ -1,5 +1,6 @@
 package com.gamez.teamlag.astralismobile;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -19,5 +20,9 @@ public class MainActivity extends AppCompatActivity {
     public void viewSettings(View view){
         Intent intent = new Intent(this, SettingsActivity.class);
         startActivity(intent);
+    }
+
+    public void exitApp(View view){
+        ((Activity)this).finish();
     }
 }

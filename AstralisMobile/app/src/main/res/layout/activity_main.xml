@@ -52,5 +52,6 @@
         android:text="Exit"
         android:id="@+id/exit"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/store"/>
+        android:layout_below="@+id/store"
+        android:onClick="exitApp"/>
 </RelativeLayout>
