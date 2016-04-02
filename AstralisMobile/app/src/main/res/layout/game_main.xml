@@ -7,45 +7,39 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.gamez.teamlag.astralismobile.MainActivity">
+    tools:context="com.gamez.teamlag.astralismobile.GameMainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ASTRALIS"
-        android:id = "@+id/logo"
+        android:text="Game Start!"
+        android:id = "@+id/main_text"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Play"
-        android:id="@+id/game1"
+        android:text="Touch Sensitivity"
+        android:id="@+id/touchSensTxt"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:layout_below="@+id/logo"
-        android:onClick="launchGame"/>
+        android:layout_below="@+id/main_text"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Settings"
-        android:id="@+id/options"
+        android:text="Bomb Configuration"
+        android:id="@+id/bombConfigTxt"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/game1"
-        android:onClick="viewSettings"/>
-    <!--<TextView-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="Store"-->
-        <!--android:id="@+id/store"-->
-        <!--android:layout_centerHorizontal="true"-->
-        <!--android:layout_below="@+id/options"/>-->
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/touchSensTxt"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Exit"
-        android:id="@+id/exit"
+        android:text="Back"
+        android:id="@+id/backBtn"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/options"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/bombConfigTxt"
         android:onClick="exitApp"/>
+
 </RelativeLayout>

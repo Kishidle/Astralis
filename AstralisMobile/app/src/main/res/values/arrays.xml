@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="touchSensValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="bombConfigValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="touchSensList" >
+        <item>Normal</item>
+        <item>Very</item>
+    </string-array>
+    <string-array name="bombConfigList" >
+        <item>Two left taps</item>
+        <item>Two right taps</item>
+        <item>Tap and hold on the left</item>
+        <item>Tap and hold on the right</item>
+        <item>None</item>
+    </string-array>
+</resources>

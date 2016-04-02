@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <PreferenceCategory
+        android:title="Game Settings">
+        <ListPreference
+            android:key="touchsens"
+            android:title="Touch Sensitivity"
+            android:defaultValue="1"
+            android:entries="@array/touchSensList"
+            android:entryValues="@array/touchSensValues"/>
+        <ListPreference
+            android:key="bombconfig"
+            android:title="Bomb Configuration"
+            android:defaultValue="1"
+            android:entries="@array/bombConfigList"
+            android:entryValues="@array/bombConfigValues"/>
+        <ListPreference/>
+        <!--<SeekBar android:id="@+id/bgmseekbar"-->
+            <!--android:key="bgmvol"-->
+            <!--android:title="BGM Volume"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:max="100"-->
+            <!--android:minWidth="250px"/>-->
+        <!--<SeekBar android:id="@+id/soundeffectseekbar"-->
+            <!--android:key="sfvol"-->
+            <!--android:title="Sound Effects Volume"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:max="100"-->
+            <!--android:minWidth="250px"/>-->
+    </PreferenceCategory>
+</PreferenceScreen>
